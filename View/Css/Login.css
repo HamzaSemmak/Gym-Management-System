@@ -1,0 +1,25 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+h2{
+  font-family: sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-style: italic;
+}
+
+#SignUp {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.btn {
+	border-radius: 24px;
+  width: 40%;
+}
