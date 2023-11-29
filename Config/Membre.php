@@ -87,7 +87,7 @@
 
         public function Create_Membre() {
             if(isset($_REQUEST['Create'])) {
-                $ID = "";
+                $ID = rand(1, 100000000);
                 $FullName = mysqli_real_escape_string($this->con,$_POST['FullName']);
                 $Date_Naissance = mysqli_real_escape_string($this->con,$_POST['Date_Naissance']);
                 $Adresse_Membre = mysqli_real_escape_string($this->con,$_POST['Adresse_Membre']);
